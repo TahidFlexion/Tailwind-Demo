@@ -103,8 +103,8 @@ function Provide() {
               </div>
             </div>
             <div className="relative mb-10  mt-10">
-              <img src="home-blocks-03.webp" className='rounded-xl sm:w-96' alt="Third Image" />
-              <img src="home-blocks-04.webp" className='w-72 sm:w-96 rounded-xl absolute top-[-120px]  right-[-80px] lg:right-[-80px] md:right-[-30px] sm:h-60 sm:top-[-100px] sm:right-[-60px] hidden md:block' alt="Fourth Image" />
+              <img src="home-blocks-03.webp" className='rounded-xl  sm:w-80 lg:w-96' alt="Third Image" />
+              <img src="home-blocks-04.webp" className='w-72  rounded-xl absolute top-[-120px]  right-[-80px] lg:right-[-80px] md:right-[-30px] sm:h-60 sm:top-[-100px] sm:right-[-60px] hidden md:block' alt="Fourth Image" />
             </div>
           </div>
         </div>  

@@ -76,7 +76,7 @@ function Navbar() {
             <div className={`fixed top-0 right-0 h-full w-full z-20 bg-lightblue text-white shadow-lg transition-transform transform ${navClasses} sm:hidden`}>
                 <div className='flex justify-items-center justify-between'>
             <a className="flex-none mt-3 " href="#" aria-label="Brand">
-                            <img className='h-14 sm:h-12 md:h-16 lg:h-20 w-full text-white' src="bright-logo.webp" alt="" />
+                            <img className='h-14 sm:h-12 md:h-16 lg:h-20 w-full text-white' src="mb.png" alt="" />
                         </a>
                 <button onClick={toggleNav} className="absolute top-4 right-4  text-white border border-white rounded p-2">
                     <svg xmlns="http://www.w3.org/2000/svg" width={24} height={24} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
