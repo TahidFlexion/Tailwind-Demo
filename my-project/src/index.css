@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes border-expand {
+    0% {
+      width: 0;
+      left: 50%;
+    }
+    100% {
+      width: 100%;
+      left: 0;
+    }
+  }
+  .hover-border-expand::after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    width: 0;
+    height: 3px; 
+    background-color:rgb(251 ,222 ,155); 
+    transition: width 0.3s ease, left 0.3s ease;
+  }
+  .hover-border-expand:hover::after {
+    animation: border-expand 0.3s infinite;
+  }
+
+  /* pulse video icon */
+  @keyframes pulse {
+    0% {
+      opacity: 0.5;
+      transform: scale(1);
+    }
+    100% {
+      opacity: 0.5;
+      transform: scale(1.3);
+    }
+  }
+  
+  .animate-pulse {
+    animation: pulse 4s infinite;
+  }
+  
+  
